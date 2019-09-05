@@ -15,7 +15,7 @@ public class ArrayClass {
         }
         for(int i = 0; i < value; i++) {
 
-            System.out.printarray[i]+ " ");
+            System.out.print(array[i]+ " ");
         }
 
     }
