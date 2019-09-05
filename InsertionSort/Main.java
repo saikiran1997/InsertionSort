@@ -1,5 +1,7 @@
 package InsertionSort;
 import java.util.Scanner;
+import InsertionSort.ArrayClass;
+
 
 public class Main {
 
@@ -11,6 +13,7 @@ public class Main {
         int sizeofArray = keyboard.nextInt();
         System.out.println("The size of your array is "+ sizeofArray);
 
+        ArrayClass.createArray(sizeofArray);
 
     }
 }
